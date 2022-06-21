@@ -1,0 +1,124 @@
+.navbar
+{
+  
+    position:relative;
+    height:70px;
+    border-bottom:2px solid gainsboro;
+
+}
+.img-holder{
+    position: absolute;
+    left:50px;
+    top:10px;
+}
+.searce-btn-holder
+{
+    position: absolute;
+    
+    left:30%;
+    top:20px;
+   
+}
+.searce-btn-holder input
+{
+    width:400px;
+    height:40px;
+    border-radius:20px;
+    text-align: center;
+    border:0px;
+    background-color: #F1F1F2;
+}
+
+
+.uploadbtn
+{
+    position: absolute;
+    left:70%;
+    top:20px;
+   
+}
+.uploadbtn button
+{
+    padding:10px;
+    width:120px;
+    height:40px;
+    border-radius:5px;
+    border:0px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:15px;
+}
+.login-btn
+{
+    background-color:#EF2A50;
+}
+/* fordrop down */
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  /* here for contenet */
+ 
+
+  .tiktik-form
+  {
+    border-right:2px solid gainsboro;
+   border-bottom:2px solid gainsboros;
+    width:30%;
+  
+  }
+
+.tiktok-content
+{
+  
+    width:70%;
+    height:100%;
+    position: absolute;
+    left:30%;
+   margin-bottom:400px;
+
+}
+.tiktok-content video 
+{
+   
+    height:400px;
+}
+.tiktik-form ul
+{
+list-style: none;
+}
+.tiktik-form button
+{
+    border:1px solid red;
+    width:90%;
+    height:40px;
+}
