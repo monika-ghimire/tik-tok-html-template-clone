@@ -16,14 +16,14 @@
     position: absolute;
     
     left:30%;
-    top:20px;
+    top:8px;
    
 }
 .searce-btn-holder input
 {
     width:400px;
-    height:40px;
-    border-radius:20px;
+    height:50px;
+    border-radius:30px;
     text-align: center;
     border:0px;
     background-color: #F1F1F2;
@@ -33,31 +33,55 @@
 .uploadbtn
 {
     position: absolute;
-    left:70%;
-    top:20px;
+    left:65%;
+    top:10px;
    
+}
+.upload
+{
+  background-color: white;
+
+ border:2px solid gainsboro;
 }
 .uploadbtn button
 {
+ 
     padding:10px;
-    width:120px;
-    height:40px;
+    width:140px;
+    height:45px;
     border-radius:5px;
-    border:0px ;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:15px;
+    font-size:20px;
+    
+}
+.upload:hover
+{
+  background-color:rgb(241, 241, 253);
 }
 .login-btn
 {
     background-color:#EF2A50;
+    border:0px;
+    color: white;
 }
+.login-btn:hover
+{
+  background-color:#f64a6d; 
+}
+
 /* fordrop down */
 .dropbtn {
-    background-color: #04AA6D;
-    color: white;
+   background-color: rgb(252, 251, 251);
+    color: rgb(11, 11, 11);
     padding: 16px;
-    font-size: 16px;
+    
     border: none;
+  }
+  .dropbtn i
+  {
+    
+    font-size:20px;
+    
   }
   
   .dropdown {
@@ -85,7 +109,7 @@
   
   .dropdown:hover .dropdown-content {display: block;}
   
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
   /* here for contenet */
  
 
@@ -109,8 +133,16 @@
 }
 .tiktok-content video 
 {
-   
-    height:400px;
+  height:800px;
+ 
+    
+}
+.frist-video
+{
+  position: relative;
+  bottom:220px;
+    width:600px;
+    left:25%;
 }
 .tiktik-form ul
 {
@@ -120,5 +152,17 @@ list-style: none;
 {
     border:1px solid red;
     width:90%;
-    height:40px;
+    height:60px;
+    background-color: white;
+    font-size:20px;
+    color: red;
+    font-weight:bold;
+}
+.tiktik-form button:hover
+{
+  background-color:#FFF3F5;
+}
+.tiktik-form
+{
+  border:2px solid gainsboro;
 }
